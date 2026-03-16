@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bf1d09e2-92fc-44b7-8280-0ce23abddef7" extendedConfigurationObject="06219677-e0fa-480d-aea7-4dc75b0db335">
+  <producedTypes>
+    <objectType typeId="bbeb8ea9-ecae-45d7-8125-a2e9d635ca81" valueTypeId="1da58584-54d7-4512-a312-a39f91d2a926"/>
+    <managerType typeId="55a8da51-2fda-4bc4-9201-71bcd9d44d16" valueTypeId="8cda1d08-9b09-4351-a3c1-af0f7202d01c"/>
+  </producedTypes>
+  <name>ЗагрузкаСтруктурыФормата</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="f24e04e7-1dfa-4810-979f-e405e5f2fc59" extendedConfigurationObject="ae30a65f-5e3b-47a9-b91b-6ba7ae68f231">
+    <name>Форма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

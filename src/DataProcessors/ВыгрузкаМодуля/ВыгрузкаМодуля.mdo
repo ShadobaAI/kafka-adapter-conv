@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="855a6049-9620-447d-978f-3dcad2c44d6c" extendedConfigurationObject="f3c338f4-eafa-4408-a527-5cc4ab37dfef">
+  <producedTypes>
+    <objectType typeId="4e7ec71b-3b49-4b5e-ac79-e724f4e09484" valueTypeId="c481bdd3-b6b0-4e77-af77-6238ce9349d8"/>
+    <managerType typeId="f835258f-45f5-4f77-8e1f-c7266a4dcc1a" valueTypeId="7565d383-197f-49a1-85d4-15846b305008"/>
+  </producedTypes>
+  <name>ВыгрузкаМодуля</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="51afe970-44bf-4061-aa5b-bc7dbe448b35">
+    <name>кфк_СлужебныеПроцедурыИФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебные процедуры и функции</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

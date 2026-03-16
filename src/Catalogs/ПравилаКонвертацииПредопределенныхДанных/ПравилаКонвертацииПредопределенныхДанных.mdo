@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ba346a7d-a500-44d2-8666-055c02021925" extendedConfigurationObject="d0aeb7f1-3c00-46ca-a311-452aa54a89c9">
+  <producedTypes>
+    <objectType typeId="0f10bd74-f699-4324-a970-c9613c3016c0" valueTypeId="af85c13d-2a02-445b-8ab0-2e657682db2e"/>
+    <refType typeId="eaf43b85-b02d-4c6a-9638-c5943efff0cb" valueTypeId="74ee9abb-5822-47fd-a84f-a7be37cce8cd"/>
+    <selectionType typeId="483ab4a3-0ad5-476b-a09e-586fc353c41f" valueTypeId="9f5e9cfb-0e89-456a-b361-8bfca09e40a2"/>
+    <listType typeId="f494acf4-a6c4-4707-85be-660f16440a58" valueTypeId="8b056a65-9ccb-4b73-8207-fea8a9d177de"/>
+    <managerType typeId="3e00440b-6599-4cda-826a-38a1471d7622" valueTypeId="d1272cf1-dc95-4497-af83-1f1f96f6c91b"/>
+  </producedTypes>
+  <name>ПравилаКонвертацииПредопределенныхДанных</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="df54a852-ae19-4146-a2e7-52435cce19fa" extendedConfigurationObject="b7b9f09f-b38b-438e-b722-d7666876f91c">
+    <name>ФормаЭлементаXDTO</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

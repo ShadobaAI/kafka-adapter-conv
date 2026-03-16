@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6c74ae99-80a8-4080-a707-9ab52bbbed81" extendedConfigurationObject="53fad8f7-3a2e-4008-acf7-679dd43289bc">
+  <producedTypes>
+    <objectType typeId="c84dac46-3e64-4cbe-8959-fafc4cd74f9e" valueTypeId="05802fdb-4c34-4de4-951a-09c53c7cc400"/>
+    <refType typeId="2bbe0c89-d4af-4186-bdcf-9a112deb2317" valueTypeId="561b982b-7531-447b-9217-cf01f9f8ed1b"/>
+    <selectionType typeId="7c9e6582-ecf7-42f6-a347-5dcd65385ee3" valueTypeId="0bab3844-8302-4780-81b8-3833028235c3"/>
+    <listType typeId="bf3b8db6-0172-41a8-9b27-351bdec39ef9" valueTypeId="a8590119-07f0-4d7e-aaf5-a88ed616e0ad"/>
+    <managerType typeId="34ee9fce-4abd-4268-ab14-37958aab63b7" valueTypeId="2c34bdaf-639d-49e4-ae60-a6db574d455c"/>
+  </producedTypes>
+  <name>ПравилаКонвертацииСвойств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <checkUnique>true</checkUnique>
+  <forms uuid="25ccbbdc-f16d-4134-b140-1611eb4765b1" extendedConfigurationObject="dbb31999-ef5b-48f8-b8aa-4f7c80458a95">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="04e65e2b-7fea-42e3-a435-557f588100ad" extendedConfigurationObject="91204d56-06a6-47a0-b02c-f496b4d3a094">
+    <name>ФормаГруппы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

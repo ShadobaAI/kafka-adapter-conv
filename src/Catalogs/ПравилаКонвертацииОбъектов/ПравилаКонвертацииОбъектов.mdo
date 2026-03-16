@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7e940168-4572-429e-804a-ddb063ffe95b" extendedConfigurationObject="ccc4d401-cf65-42ba-a49b-6d263a9418f3">
+  <producedTypes>
+    <objectType typeId="f82843b0-4137-42d7-aea7-f62bde5b7cae" valueTypeId="dfcca3ec-a8e1-4e94-97b2-2c0ba811e622"/>
+    <refType typeId="70420a25-5935-4ba3-819b-7e16da2e617f" valueTypeId="775ef427-430d-416f-9d1a-21e027249ef5"/>
+    <selectionType typeId="916d95d7-ebe0-4a05-b7b9-d6ca29713524" valueTypeId="bc4b8d77-387f-4c24-9ed1-ae81d87ebb90"/>
+    <listType typeId="2dc0d2f6-0fbe-47b7-993e-e267043ad3a6" valueTypeId="3783dd9d-a278-4106-b326-eb4789ac446d"/>
+    <managerType typeId="ff31355c-a002-4c23-af88-ec007a9a81a2" valueTypeId="562c76b7-c084-4f70-b078-984a2f27954b"/>
+  </producedTypes>
+  <name>ПравилаКонвертацииОбъектов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="92e74a11-f7a3-4594-b01d-95d2be28b4a6" extendedConfigurationObject="b962198b-08f3-43fe-ac2d-ac0b43ac5d2d">
+    <name>ОбъектКонфигурации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Объекты</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="39f06388-b075-4cd1-b123-92fbecb52d65">
+    <name>кфк_ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Свойства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.ПравилаКонвертацииОбъектов.Attribute.ОбъектКонфигурации</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3800df37-dca3-40b5-8928-1d457d155e08" extendedConfigurationObject="f1553772-cfa9-4185-9739-8e9b0fa70cdc">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>
