@@ -20,13 +20,13 @@
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="22bd886b-a9b8-49b2-b3ef-db5d2cc4ae1f"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="209b2580-5431-4522-a83e-772543048db6"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
-  <namePrefix>кфк_</namePrefix>
+  <namePrefix>кфк</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <vendor>ООО &quot;ФСК ЛАБ&quot;</vendor>
+  <vendor>github.com/ShadobaAI</vendor>
   <version>1.2.2</version>
   <compatibilityMode>8.3.24</compatibilityMode>
   <languages uuid="dc064343-ae0e-41d8-91a7-39f16552e8e2" extendedConfigurationObject="fa4b0c84-7a43-4ab6-ad87-b4d5483f4d2c">

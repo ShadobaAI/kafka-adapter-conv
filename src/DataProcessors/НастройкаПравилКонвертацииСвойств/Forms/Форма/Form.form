@@ -644,7 +644,7 @@
   </autoCommandBar>
   <handlers xsi:type="form:EventHandlerExtension">
     <event>OnCreateAtServer</event>
-    <name>кфк_ПриСозданииНаСервереПосле</name>
+    <name>кфкПриСозданииНаСервереПосле</name>
     <callType>After</callType>
   </handlers>
   <saveWindowSettings>true</saveWindowSettings>

@@ -27,7 +27,7 @@
     </extension>
   </attributes>
   <attributes uuid="39f06388-b075-4cd1-b123-92fbecb52d65">
-    <name>кфк_ТабличнаяЧасть</name>
+    <name>кфкТабличнаяЧасть</name>
     <synonym>
       <key>ru</key>
       <value>Табличная часть</value>

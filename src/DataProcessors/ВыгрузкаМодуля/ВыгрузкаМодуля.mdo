@@ -12,7 +12,7 @@
   </extension>
   <useStandardCommands>true</useStandardCommands>
   <templates uuid="51afe970-44bf-4061-aa5b-bc7dbe448b35">
-    <name>кфк_СлужебныеПроцедурыИФункции</name>
+    <name>кфкСлужебныеПроцедурыИФункции</name>
     <synonym>
       <key>ru</key>
       <value>Служебные процедуры и функции</value>

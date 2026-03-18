@@ -1002,7 +1002,7 @@
     </use>
     <action xsi:type="form:FormExtensionCommandHandlerContainer">
       <handlers>
-        <name>кфк_ЗаполнитьИдентификаторПосле</name>
+        <name>кфкЗаполнитьИдентификаторПосле</name>
         <callType>After</callType>
       </handlers>
     </action>
