@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   build:
-    name: Сборка CF
+    name: Сборка CFE
     uses: ShadobaAI/kafka-tools/.github/workflows/build.yml@main
     with:
       name_suffix: conv
