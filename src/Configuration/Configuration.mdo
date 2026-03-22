@@ -27,7 +27,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>github.com/ShadobaAI</vendor>
-  <version>1.2.2</version>
+  <version>9.9.9.9</version>
   <compatibilityMode>8.3.24</compatibilityMode>
   <languages uuid="dc064343-ae0e-41d8-91a7-39f16552e8e2" extendedConfigurationObject="fa4b0c84-7a43-4ab6-ad87-b4d5483f4d2c">
     <name>Русский</name>

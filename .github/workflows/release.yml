@@ -1,0 +1,17 @@
+name: Build & Release
+
+on:
+  release:
+    types: [created]
+
+permissions:
+  contents: write
+  packages: read
+
+jobs:
+  build:
+    name: Сборка CF
+    uses: ShadobaAI/kafka-tools/.github/workflows/build.yml@main
+    with:
+      name_suffix: conv
+      dockerhub_image: ${{ vars.DOCKERHUB_IMAGE }}
