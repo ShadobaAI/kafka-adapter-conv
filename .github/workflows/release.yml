@@ -13,5 +13,4 @@ jobs:
     name: Сборка CFE
     uses: ShadobaAI/kafka-tools/.github/workflows/build.yml@main
     with:
-      name_suffix: conv
       dockerhub_image: ${{ vars.DOCKERHUB_IMAGE }}
