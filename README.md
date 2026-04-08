@@ -2,7 +2,7 @@
 
 ![Платформа](https://img.shields.io/badge/1С-8.3.21+-blue)
 ![КД](https://img.shields.io/badge/КД-3.1.6+-blue)
-![EDT](https://img.shields.io/badge/EDT-2025.2.3+-blue)
+![EDT](https://img.shields.io/badge/EDT-2025.2+-blue)
 
 Расширение конфигурации [1С:Конвертация данных 3.1](https://its.1c.ru/db/metod8dev#content:5846:hdoc), адаптирующее типовой механизм обмена под работу с произвольным XDTO в [1С: Адаптер Kafka](https://github.com/ShadobaAI/kafka-adapter).
 
