@@ -47,6 +47,7 @@
   <catalogs>Catalog.ПравилаКонвертацииОбъектов</catalogs>
   <catalogs>Catalog.ПравилаКонвертацииПредопределенныхДанных</catalogs>
   <catalogs>Catalog.ПравилаКонвертацииСвойств</catalogs>
+  <catalogs>Catalog.ПравилаОбработкиДанных</catalogs>
   <catalogs>Catalog.Свойства</catalogs>
   <enums>Enum.ВариантыИдентификацииОбъектов</enums>
   <dataProcessors>DataProcessor.ВыгрузкаМодуля</dataProcessors>
