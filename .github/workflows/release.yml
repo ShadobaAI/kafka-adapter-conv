@@ -11,6 +11,4 @@ permissions:
 jobs:
   build:
     name: Сборка CFE
-    uses: ShadobaAI/kafka-tools/.github/workflows/build.yml@main
-    with:
-      dockerhub_image: ${{ vars.DOCKERHUB_IMAGE }}
+    uses: ShadobaAI/kafka-tools/.github/workflows/release-1c-artifacts.yml@main
