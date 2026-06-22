@@ -12,7 +12,6 @@
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
-  <useStandardCommands>true</useStandardCommands>
   <attributes uuid="92e74a11-f7a3-4594-b01d-95d2be28b4a6" extendedConfigurationObject="b962198b-08f3-43fe-ac2d-ac0b43ac5d2d">
     <name>ОбъектКонфигурации</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -25,6 +24,9 @@
         </types>
       </typeExtension>
     </extension>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="39f06388-b075-4cd1-b123-92fbecb52d65">
     <name>кфкТабличнаяЧасть</name>
@@ -32,6 +34,10 @@
       <key>ru</key>
       <value>Табличная часть</value>
     </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
     <type>
       <types>CatalogRef.Свойства</types>
     </type>

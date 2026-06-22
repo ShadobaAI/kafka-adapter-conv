@@ -12,8 +12,6 @@
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
-  <useStandardCommands>true</useStandardCommands>
-  <checkUnique>true</checkUnique>
   <forms uuid="25ccbbdc-f16d-4134-b140-1611eb4765b1" extendedConfigurationObject="dbb31999-ef5b-48f8-b8aa-4f7c80458a95">
     <name>ФормаЭлемента</name>
     <objectBelonging>Adopted</objectBelonging>

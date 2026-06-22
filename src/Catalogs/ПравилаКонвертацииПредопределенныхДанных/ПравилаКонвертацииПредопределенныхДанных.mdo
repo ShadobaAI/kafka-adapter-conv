@@ -12,7 +12,6 @@
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
-  <useStandardCommands>true</useStandardCommands>
   <forms uuid="df54a852-ae19-4146-a2e7-52435cce19fa" extendedConfigurationObject="b7b9f09f-b38b-438e-b722-d7666876f91c">
     <name>ФормаЭлементаXDTO</name>
     <objectBelonging>Adopted</objectBelonging>

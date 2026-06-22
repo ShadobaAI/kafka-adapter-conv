@@ -79,7 +79,7 @@
           </contextMenu>
           <type>InputField</type>
           <readOnly>true</readOnly>
-          <editMode>EnterOnInput</editMode>
+          <editMode>Auto</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -90,6 +90,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <items xsi:type="form:Decoration">
@@ -237,6 +238,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -276,6 +278,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -304,7 +307,8 @@
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
             <group>Vertical</group>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
+            <scrollOnCompress>false</scrollOnCompress>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -349,6 +353,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -377,7 +382,8 @@
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
             <group>Vertical</group>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
+            <scrollOnCompress>false</scrollOnCompress>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -591,6 +597,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -633,6 +640,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -675,6 +683,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -714,6 +723,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -742,7 +752,8 @@
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
             <group>Vertical</group>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
+            <scrollOnCompress>false</scrollOnCompress>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -783,6 +794,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -811,7 +823,8 @@
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
             <group>Vertical</group>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
+            <scrollOnCompress>false</scrollOnCompress>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -972,6 +985,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -1034,7 +1048,8 @@
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
             <group>Vertical</group>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
+            <scrollOnCompress>false</scrollOnCompress>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -1095,6 +1110,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -1157,7 +1173,8 @@
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
             <group>Vertical</group>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
+            <scrollOnCompress>false</scrollOnCompress>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -1219,6 +1236,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -1281,7 +1299,8 @@
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
             <group>Vertical</group>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
+            <scrollOnCompress>false</scrollOnCompress>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -1343,6 +1362,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -1405,7 +1425,8 @@
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
             <group>Vertical</group>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
+            <scrollOnCompress>false</scrollOnCompress>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -1468,6 +1489,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -1530,7 +1552,8 @@
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
             <group>Vertical</group>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
+            <scrollOnCompress>false</scrollOnCompress>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -1580,7 +1603,8 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -1625,6 +1649,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -1663,6 +1688,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -1700,6 +1726,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -1822,7 +1849,8 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -1886,6 +1914,7 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -1989,6 +2018,7 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -1997,7 +2027,7 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -2005,7 +2035,7 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <commandInterface>
     <navigationPanel/>

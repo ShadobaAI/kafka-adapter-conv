@@ -9,7 +9,6 @@
   <extension xsi:type="mdclassExtension:DataProcessorExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
-  <useStandardCommands>true</useStandardCommands>
   <forms uuid="c454cd1e-9ae7-4c9b-b97c-524524e4a014" extendedConfigurationObject="c0298bdb-e5ad-457e-8aed-3bf1552dcf97">
     <name>Форма</name>
     <objectBelonging>Adopted</objectBelonging>

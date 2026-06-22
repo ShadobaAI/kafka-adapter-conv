@@ -10,5 +10,4 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <managerModule>Extended</managerModule>
   </extension>
-  <useStandardCommands>true</useStandardCommands>
 </mdclass:DataProcessor>

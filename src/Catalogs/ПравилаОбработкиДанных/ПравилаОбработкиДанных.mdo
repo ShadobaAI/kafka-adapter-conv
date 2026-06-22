@@ -13,5 +13,4 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <objectModule>Extended</objectModule>
   </extension>
-  <useStandardCommands>true</useStandardCommands>
 </mdclass:Catalog>
