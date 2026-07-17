@@ -24,9 +24,6 @@
         </types>
       </typeExtension>
     </extension>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="39f06388-b075-4cd1-b123-92fbecb52d65">
     <name>кфкТабличнаяЧасть</name>

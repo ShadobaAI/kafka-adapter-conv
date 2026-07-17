@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="015a8a3a-3cee-41fb-a4d2-43f53543e80e" extendedConfigurationObject="5fa0c3ad-9a2b-4ad4-b8df-a386248d84c8">
+  <producedTypes>
+    <objectType typeId="c1fdd7cc-3812-4eb3-9353-70a81980d2b6" valueTypeId="1b2cc2c8-474b-4146-b960-b24c347b181b"/>
+    <refType typeId="876969b3-3d87-42fc-ae28-b7db66678587" valueTypeId="5f2d7336-7353-4508-8c6a-b929b32af421"/>
+    <selectionType typeId="0fc0f097-82c2-47fb-a995-b71f29133ffb" valueTypeId="d10a1d7c-2894-4be2-8b3e-04bf65c8fcd4"/>
+    <listType typeId="e1ba0170-a2db-413a-a7eb-709866ee77c0" valueTypeId="54b1cc93-8939-4558-a51b-676a4ef5d1b6"/>
+    <managerType typeId="a331ddaa-5502-4f61-92d5-2ba8450d3c79" valueTypeId="a95f395e-b414-406b-95a3-a0b95f2d38e3"/>
+  </producedTypes>
+  <name>ВерсииФормата</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

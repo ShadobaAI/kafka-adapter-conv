@@ -12,4 +12,164 @@
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
+  <attributes uuid="d77e164f-bf26-4b30-bf94-505e018fbd26" extendedConfigurationObject="88e0934d-f5b7-4d3b-a324-4f6c5b80407c">
+    <name>ТипыСтрокой</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="ddc85867-64e1-4971-94ee-11625155d7ab" extendedConfigurationObject="9e441ff9-cd6f-45c0-a5a8-d6cefa01a348">
+    <name>Синоним</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="94305cd8-1f22-4d65-99b8-668d8d2264df" extendedConfigurationObject="7f9fa1f0-0199-4658-9c43-8575de12ad99">
+    <name>КвалификаторыСтроки_Длина</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="53e6b726-079b-408c-a1ac-f725b877bed8" extendedConfigurationObject="89d50220-35f5-4f73-8942-4760660dba77">
+    <name>КвалификаторыЧисла_Точность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="d9c74427-4425-4b6e-8116-5cf35bfa8e70" extendedConfigurationObject="ea9570d1-cf27-4e71-b8a2-f1e06ae94a82">
+    <name>КвалификаторыЧисла_Неотрицательное</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="eeb67ab3-242e-42fd-84fe-ce5145b7dae1" extendedConfigurationObject="4b991c56-77fb-49ae-8497-7fb5d6407663">
+    <name>КвалификаторыДаты_Состав</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>12</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="d414b153-1c37-4724-8182-2c427a4e6f34" extendedConfigurationObject="cf3a7a6b-fc30-420a-81e1-04256ffec92a">
+    <name>КвалификаторыЧисла_Длина</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="108d3071-4e36-444a-998e-abe4cac40504" extendedConfigurationObject="d4241a1f-7376-4978-a1eb-f250ed66f49d">
+    <name>КвалификаторыСтроки_Фиксированная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="533d35c9-d60c-4103-a764-2ebe021147d2" extendedConfigurationObject="7727b533-9762-4bdd-ae6f-c7bd22ad8be8">
+    <name>Вид</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВидыСвойств</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="7548962c-c424-4f1d-ae01-a9078aa8b09c" extendedConfigurationObject="f50349b9-19fc-4f4a-8966-8a1aa8fc445c">
+    <producedTypes>
+      <objectType typeId="e1358054-ccf4-4241-aab0-0a3a0c9519f8" valueTypeId="b37c0ed5-d5ab-4aad-a1fc-55ddd0178df2"/>
+      <rowType typeId="f1d6fbb9-8025-44a2-aa66-87e881e2cb49" valueTypeId="f0786c1e-579f-4a7f-98aa-84dee74481ab"/>
+    </producedTypes>
+    <name>Типы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="37f8c271-583b-4a01-bd00-c6a7cf8e1269" extendedConfigurationObject="e3a1b3e7-3fea-4264-8c13-a0b13219e4b6">
+      <name>Тип</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Объекты</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
 </mdclass:Catalog>

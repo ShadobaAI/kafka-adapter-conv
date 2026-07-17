@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f4047927-786c-4786-a2fd-25223e081fa9" extendedConfigurationObject="269f1092-9205-42fa-880b-aebce52a3fb8">
+  <producedTypes>
+    <refType typeId="8440e66a-43c1-46ce-8637-0dd6f0a4f641" valueTypeId="f22a4f1d-005e-4b4d-89b5-d82116cbc388"/>
+    <listType typeId="1d6d54fd-54d5-4e1d-9fa3-09bfe3443c92" valueTypeId="da1eda54-46b3-46ce-8da1-68318b73f0e4"/>
+    <managerType typeId="616a89bc-da28-43b3-bbb1-e7d7297396d9" valueTypeId="ca4a721b-c198-4182-8d5f-7989e063af08"/>
+  </producedTypes>
+  <name>СпособыВыгрузкиРазделенногоМодуля</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

@@ -9,6 +9,7 @@
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
     <usePurposes>Checked</usePurposes>
+    <homePageWorkArea>Extended</homePageWorkArea>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
     <compatibilityMode>Checked</compatibilityMode>
   </extension>
@@ -38,21 +39,43 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.кфкКонтрактыСпецификации</subsystems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <styleItems>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</styleItems>
   <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
   <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
   <commonModules>CommonModule.КонвертацияДанныхXDTOВызовСервера</commonModules>
+  <commonForms>CommonForm.ВыборКонфигурацийИсточникаПриемника</commonForms>
+  <commonForms>CommonForm.кфкРабочийСтолКонвертации</commonForms>
+  <commonForms>CommonForm.кфкРабочийСтолСпецификаций</commonForms>
+  <catalogs>Catalog.ВерсииФормата</catalogs>
+  <catalogs>Catalog.Значения</catalogs>
+  <catalogs>Catalog.Конвертации</catalogs>
+  <catalogs>Catalog.кфкКаналыСпецификации</catalogs>
+  <catalogs>Catalog.кфкПеречисленияСпецификации</catalogs>
+  <catalogs>Catalog.кфкПриложенияСпецификаций</catalogs>
+  <catalogs>Catalog.кфкСпецификации</catalogs>
+  <catalogs>Catalog.кфкТипыДанныхСпецификации</catalogs>
+  <catalogs>Catalog.кфкТипыЗначенийСпецификации</catalogs>
   <catalogs>Catalog.Объекты</catalogs>
   <catalogs>Catalog.ПравилаКонвертацииОбъектов</catalogs>
   <catalogs>Catalog.ПравилаКонвертацииПредопределенныхДанных</catalogs>
   <catalogs>Catalog.ПравилаКонвертацииСвойств</catalogs>
   <catalogs>Catalog.ПравилаОбработкиДанных</catalogs>
+  <catalogs>Catalog.Релизы</catalogs>
   <catalogs>Catalog.Свойства</catalogs>
   <enums>Enum.ВариантыИдентификацииОбъектов</enums>
+  <enums>Enum.ВариантыМоделейОбмена</enums>
+  <enums>Enum.ВидыСвойств</enums>
+  <enums>Enum.СостоянияПравил</enums>
+  <enums>Enum.СпособыВыгрузкиРазделенногоМодуля</enums>
+  <enums>Enum.ТипыКонвертаций</enums>
+  <enums>Enum.ТипыОбъектов</enums>
   <dataProcessors>DataProcessor.ВыгрузкаМодуля</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаСтруктурыКонфигурацииИзФайловXML</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаСтруктурыФормата</dataProcessors>
+  <dataProcessors>DataProcessor.кфкКонструкторAsyncAPI</dataProcessors>
   <dataProcessors>DataProcessor.НастройкаПравилКонвертацииСвойств</dataProcessors>
   <dataProcessors>DataProcessor.НастройкаПравилОбмена</dataProcessors>
+  <informationRegisters>InformationRegister.кфкПримерыСообщенийСпецификации</informationRegisters>
 </mdclass:Configuration>

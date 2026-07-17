@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="694c759f-5807-4b04-90ea-5831c4c6cbe8">
+  <producedTypes>
+    <objectType typeId="f2946f0d-6d9e-4a84-9b32-9baff2355663" valueTypeId="8634eebd-e3af-456d-a357-6d5b0dac98bc"/>
+    <refType typeId="e1bb3c93-eb59-466c-a518-c412814b57f5" valueTypeId="734ee768-5be2-421b-b026-de87c056a95d"/>
+    <selectionType typeId="88ba3d9e-8934-46fe-9bda-a6fe946ef395" valueTypeId="2f56bd64-86dd-47d3-9f7d-fe93b1b0f3dd"/>
+    <listType typeId="1bbe9765-19db-440d-87fc-b15856061b7d" valueTypeId="2f66c45c-7ac4-4a56-a73b-86ade244e567"/>
+    <managerType typeId="280d147f-0c9e-40f6-bd02-82f7ae7c860a" valueTypeId="7d536b6a-0594-4a36-b7e9-5f5ce32425cc"/>
+  </producedTypes>
+  <name>кфкПриложенияСпецификаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приложения спецификаций</value>
+  </synonym>
+  <inputByString>Catalog.кфкПриложенияСпецификаций.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Приложение спецификаций</value>
+  </objectPresentation>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

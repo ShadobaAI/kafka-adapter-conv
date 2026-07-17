@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b46eb4c2-9b8e-433a-b705-70e3eb53ef87">
+  <producedTypes>
+    <objectType typeId="483ab1ca-37c3-4dcc-b1ec-bedcff760bb3" valueTypeId="e4c96e99-bbca-44c8-a480-a61d1f123699"/>
+    <refType typeId="eafdd2b7-752c-4afb-b724-85d32e6f1847" valueTypeId="419f3d48-3489-4e25-86f2-cd826685f3c5"/>
+    <selectionType typeId="c3086e15-4131-445a-a6c0-dc94c352a034" valueTypeId="6ffb70e9-1085-4a1a-91aa-546c78bff27b"/>
+    <listType typeId="ff551b5d-6a8f-46ac-87d5-279f680b8278" valueTypeId="e77bfb8f-0104-4251-a7e4-89466aecdcad"/>
+    <managerType typeId="083422e0-6b3c-4373-aca6-978a89f70df2" valueTypeId="571bd7ae-cdbc-40d7-9f47-36437129314c"/>
+  </producedTypes>
+  <name>кфкТипыЗначенийСпецификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы значений спецификации</value>
+  </synonym>
+  <inputByString>Catalog.кфкТипыЗначенийСпецификации.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.кфкТипыЗначенийСпецификации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовый тип</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Тип значения спецификации</value>
+  </objectPresentation>
+  <dataHistory>Use</dataHistory>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>25</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="6cdec77b-1cf7-412d-8659-b66faac4e011">
+      <name>Строка</name>
+      <description>Строка</description>
+      <code xsi:type="core:StringValue">
+        <value>string</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="49b6e722-d1ff-4884-8836-29108f39e43a">
+        <name>ДанныеBase64</name>
+        <description>Данные base64</description>
+        <code xsi:type="core:StringValue">
+          <value>byte</value>
+        </code>
+      </content>
+      <content id="db9c0154-7c5f-41ee-bbc1-4f24cf107fc7">
+        <name>ДвоичныеДанные</name>
+        <description>Двоичные данные</description>
+        <code xsi:type="core:StringValue">
+          <value>binary</value>
+        </code>
+      </content>
+      <content id="c18bc34a-27b0-40bd-b854-427cb4688a48">
+        <name>Дата</name>
+        <description>Дата</description>
+        <code xsi:type="core:StringValue">
+          <value>date</value>
+        </code>
+      </content>
+      <content id="26f5603a-7177-489e-a302-32218086b737">
+        <name>ДатаВремя</name>
+        <description>Дата и время</description>
+        <code xsi:type="core:StringValue">
+          <value>date-time</value>
+        </code>
+      </content>
+      <content id="84795968-c72f-409c-9ae3-77c17f362696">
+        <name>УникальныйИдентификатор</name>
+        <description>Уникальный идентификатор</description>
+        <code xsi:type="core:StringValue">
+          <value>uuid</value>
+        </code>
+      </content>
+      <content id="f8b54752-9539-433e-b42e-1f2be8978dac">
+        <name>ЭлектроннаяПочта</name>
+        <description>Электронная почта</description>
+        <code xsi:type="core:StringValue">
+          <value>email</value>
+        </code>
+      </content>
+      <content id="1826a421-2e7d-4ea9-aef5-6a5e7e94fe2a">
+        <name>АдресРесурса</name>
+        <description>Адрес ресурса</description>
+        <code xsi:type="core:StringValue">
+          <value>uri</value>
+        </code>
+      </content>
+    </items>
+    <items id="2a64da32-1ebf-42ea-ae43-9f61055439fb">
+      <name>Число</name>
+      <description>Число</description>
+      <code xsi:type="core:StringValue">
+        <value>number</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="c76af698-d927-4ea9-8bb9-873874f1430f">
+        <name>ДробноеЧисло</name>
+        <description>Дробное число</description>
+        <code xsi:type="core:StringValue">
+          <value>float</value>
+        </code>
+      </content>
+      <content id="5f529a45-30ca-4d60-879c-d750fba9bd91">
+        <name>ДробноеДвойнойТочности</name>
+        <description>Дробное двойной точности</description>
+        <code xsi:type="core:StringValue">
+          <value>double</value>
+        </code>
+      </content>
+    </items>
+    <items id="6488f536-4764-45c8-8535-6b014bc00bc8">
+      <name>ЦелоеЧисло</name>
+      <description>Целое число</description>
+      <code xsi:type="core:StringValue">
+        <value>integer</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="3309f12e-b364-427b-aba9-a14a3ab3d49a">
+        <name>ЦелоеЧисло32</name>
+        <description>Целое число 32-битное</description>
+        <code xsi:type="core:StringValue">
+          <value>int32</value>
+        </code>
+      </content>
+      <content id="67da0a72-31cc-4868-8c1f-39309a25e358">
+        <name>ЦелоеЧисло64</name>
+        <description>Целое число 64-битное</description>
+        <code xsi:type="core:StringValue">
+          <value>int64</value>
+        </code>
+      </content>
+    </items>
+    <items id="c352f466-2e16-4f9e-8bd4-d5d5643fcf25">
+      <name>Логический</name>
+      <description>Логический</description>
+      <code xsi:type="core:StringValue">
+        <value>boolean</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="15bd8d1f-9f5f-4cb9-963d-8f00f7f9cfc9">
+      <name>Массив</name>
+      <description>Массив</description>
+      <code xsi:type="core:StringValue">
+        <value>array</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="271dab9f-2829-4dcd-a9e7-3f3e812ece74">
+      <name>Структура</name>
+      <description>Структура</description>
+      <code xsi:type="core:StringValue">
+        <value>object</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <defaultListForm>Catalog.кфкТипыЗначенийСпецификации.Form.ФормаСписка</defaultListForm>
+  <forms uuid="d6cf2ec7-f803-4bf0-9ed3-538674548d9a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
