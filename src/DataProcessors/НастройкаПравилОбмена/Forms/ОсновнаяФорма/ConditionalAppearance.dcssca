@@ -16,7 +16,7 @@
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>ЦветТекста</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+				<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
 			</dcscor:item>
 		</appearance>
 	</item>
@@ -56,7 +56,7 @@
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>ЦветТекста</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+				<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
 			</dcscor:item>
 		</appearance>
 	</item>
@@ -96,7 +96,7 @@
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>ЦветТекста</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+				<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
 			</dcscor:item>
 		</appearance>
 	</item>
@@ -136,7 +136,7 @@
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>ЦветТекста</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+				<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
 			</dcscor:item>
 		</appearance>
 	</item>
@@ -176,7 +176,7 @@
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>ЦветТекста</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+				<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
 			</dcscor:item>
 		</appearance>
 	</item>
@@ -216,7 +216,7 @@
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>ЦветФона</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+				<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
 			</dcscor:item>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:use>false</dcscor:use>
@@ -241,7 +241,7 @@
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>ЦветФона</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+				<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
 			</dcscor:item>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:use>false</dcscor:use>
@@ -266,7 +266,7 @@
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>ЦветФона</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+				<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
 			</dcscor:item>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:use>false</dcscor:use>
@@ -291,7 +291,7 @@
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>ЦветФона</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+				<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
 			</dcscor:item>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:use>false</dcscor:use>
@@ -316,7 +316,7 @@
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>ЦветФона</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+				<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
 			</dcscor:item>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:use>false</dcscor:use>
