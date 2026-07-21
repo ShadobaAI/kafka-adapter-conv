@@ -146,6 +146,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Дерево.Свойство</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ДеревоСвойствоПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ДеревоСвойствоРасширеннаяПодсказка</name>
         <id>53</id>
@@ -538,6 +542,7 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
+    <searchStringLocation>CommandBar</searchStringLocation>
     <autoMaxCardHeight>true</autoMaxCardHeight>
     <showCommandBarNeedDereferenced>true</showCommandBarNeedDereferenced>
   </items>
