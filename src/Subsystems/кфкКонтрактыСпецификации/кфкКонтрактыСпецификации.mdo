@@ -11,7 +11,15 @@
   <content>Catalog.кфкКаналыСпецификации</content>
   <content>Catalog.кфкТипыДанныхСпецификации</content>
   <content>Catalog.кфкПеречисленияСпецификации</content>
-  <content>InformationRegister.кфкПримерыСообщенийСпецификации</content>
   <content>DataProcessor.кфкКонструкторAsyncAPI</content>
   <content>Catalog.кфкТипыЗначенийСпецификации</content>
+  <content>Document.кфкВерсияСпецификации</content>
+  <content>InformationRegister.кфкИзмененияОбъектовСпецификаций</content>
+  <content>Enum.кфкВидыПовышенияВерсий</content>
+  <content>InformationRegister.кфкВерсииСпецификации</content>
+  <content>Catalog.кфкПримерыСообщенийСпецификации</content>
+  <content>Enum.кфкВидыИзмененияДанных</content>
+  <content>DefinedType.кфкКомпонентСпецификации</content>
+  <content>CommonForm.кфкРабочийСтолСпецификаций</content>
+  <content>Role.кфкДобавлениеИзменениеСпецификации</content>
 </mdclass:Subsystem>

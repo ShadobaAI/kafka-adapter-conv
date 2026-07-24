@@ -108,6 +108,24 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.кфкКаналыСпецификации.Form.ФормаЭлемента</defaultObjectForm>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
+  <attributes uuid="1faee117-e7af-4bf0-a7c9-25060aceb99d">
+    <name>Отправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.кфкПриложенияСпецификаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="21b81bce-d4c3-44d6-a13d-8bc1439c02b2">
     <name>ТипДанных</name>
     <synonym>
@@ -137,6 +155,121 @@
       </value>
     </choiceParameters>
     <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="63e3924f-6366-41d3-b28b-a176f9ae4f5c">
+    <name>АдресТопика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес топика</value>
+    </synonym>
+    <comment>channels.{ИмяКанала}.address: {АдресТопика}</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон для формирования адреса топика (channels.*.address).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="16004359-97bf-4191-9d89-7e4ccb27121e">
+    <name>ИмяКанала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя канала</value>
+    </synonym>
+    <comment>channels.{ИмяКанала}</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон для формирования имени канала (channels.*).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="56945fb0-0cfe-4cfa-8c3c-6fbd4609be06">
+    <name>ИмяОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя операции</value>
+    </synonym>
+    <comment>operations.{ИмяОперации}</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон для формирования имени операции отправки или получения сообщения (operations.*).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d207bcc0-bf49-49be-8483-9670a034ef0c">
+    <name>ИмяСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя сообщения</value>
+    </synonym>
+    <comment>components.messages.{ИмяСообщения}</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон для формирования имени сообщения (components.messages.*).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4ea1bbde-8a53-4032-8659-1b7354321c9c">
+    <name>ИмяСообщенияКанала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя сообщения канала</value>
+    </synonym>
+    <comment>channels.{ИмяКанала}.messages.{ИмяСообщенияКанала}</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон для формирования идентификатора сообщения внутри канала (channels.*.messages.*).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

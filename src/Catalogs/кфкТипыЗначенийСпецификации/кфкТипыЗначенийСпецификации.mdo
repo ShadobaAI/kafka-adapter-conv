@@ -108,7 +108,6 @@
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
     <items id="6cdec77b-1cf7-412d-8659-b66faac4e011">

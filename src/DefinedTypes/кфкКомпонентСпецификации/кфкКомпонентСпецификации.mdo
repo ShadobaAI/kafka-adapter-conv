@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a9704a7-2542-477d-be69-66096e69ac1e">
+  <producedTypes>
+    <containerType typeId="e8b1325f-8e06-485f-9c0a-6138b7b7f36f" valueTypeId="71acb26f-ad0a-418b-b5cf-1ba17cc2a6b5"/>
+  </producedTypes>
+  <name>кфкКомпонентСпецификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компонент спецификации</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.кфкКаналыСпецификации</types>
+    <types>CatalogRef.кфкТипыДанныхСпецификации</types>
+    <types>CatalogRef.кфкСпецификации</types>
+    <types>CatalogRef.кфкПримерыСообщенийСпецификации</types>
+    <types>CatalogRef.кфкПеречисленияСпецификации</types>
+  </type>
+</mdclass:DefinedType>

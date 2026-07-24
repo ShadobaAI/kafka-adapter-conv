@@ -109,6 +109,8 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.кфкПеречисленияСпецификации.Form.ФормаЭлемента</defaultObjectForm>
   <defaultChoiceForm>Catalog.кфкПеречисленияСпецификации.Form.ФормаВыбора</defaultChoiceForm>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
   <attributes uuid="0017a855-0dba-4679-9ea7-f9310d77cc09">
     <name>ТипЗначения</name>
     <synonym>

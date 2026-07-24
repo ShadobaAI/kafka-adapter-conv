@@ -1916,6 +1916,7 @@
         <enableStartDrag>true</enableStartDrag>
         <enableDrag>true</enableDrag>
         <fileDragMode>AsFileRef</fileDragMode>
+        <searchStringLocation>Top</searchStringLocation>
         <autoMaxCardHeight>true</autoMaxCardHeight>
         <showCommandBarNeedDereferenced>true</showCommandBarNeedDereferenced>
       </items>
@@ -1960,19 +1961,19 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
-          <name>ПримерыСообщенийТипДанных</name>
-          <id>141</id>
+          <name>ПримерыСообщенийКод</name>
+          <id>340</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>ПримерыСообщений.ТипДанных</segments>
+            <segments>ПримерыСообщений.Code</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ПримерыСообщенийТипДанныхРасширеннаяПодсказка</name>
-            <id>143</id>
+            <name>ПримерыСообщенийКодРасширеннаяПодсказка</name>
+            <id>342</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1981,8 +1982,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПримерыСообщенийТипДанныхКонтекстноеМеню</name>
-            <id>142</id>
+            <name>ПримерыСообщенийКодКонтекстноеМеню</name>
+            <id>341</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>LabelField</type>
@@ -1996,19 +1997,19 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>ПримерыСообщенийИдентификатор</name>
-          <id>144</id>
+          <name>ПримерыСообщенийНаименование</name>
+          <id>343</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>ПримерыСообщений.Идентификатор</segments>
+            <segments>ПримерыСообщений.Description</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ПримерыСообщенийИдентификаторРасширеннаяПодсказка</name>
-            <id>146</id>
+            <name>ПримерыСообщенийНаименованиеРасширеннаяПодсказка</name>
+            <id>345</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2017,8 +2018,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПримерыСообщенийИдентификаторКонтекстноеМеню</name>
-            <id>145</id>
+            <name>ПримерыСообщенийНаименованиеКонтекстноеМеню</name>
+            <id>344</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>LabelField</type>
@@ -2033,7 +2034,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>ПримерыСообщенийТело</name>
-          <id>147</id>
+          <id>349</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2044,7 +2045,7 @@
           </dataPath>
           <extendedTooltip>
             <name>ПримерыСообщенийТелоРасширеннаяПодсказка</name>
-            <id>149</id>
+            <id>351</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2054,7 +2055,41 @@
           </extendedTooltip>
           <contextMenu>
             <name>ПримерыСообщенийТелоКонтекстноеМеню</name>
-            <id>148</id>
+            <id>350</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>LabelField</type>
+          <editMode>Auto</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:LabelFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ПримерыСообщенийСсылка</name>
+          <id>346</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible/>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПримерыСообщений.Ref</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ПримерыСообщенийСсылкаРасширеннаяПодсказка</name>
+            <id>348</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ПримерыСообщенийСсылкаКонтекстноеМеню</name>
+            <id>347</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>LabelField</type>
@@ -2692,8 +2727,11 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>ПримерыСообщений.Ref</segments>
+    </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <mainTable>InformationRegister.кфкПримерыСообщенийСпецификации</mainTable>
+      <mainTable>Catalog.кфкПримерыСообщенийСпецификации</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <autoSaveUserSettings>true</autoSaveUserSettings>

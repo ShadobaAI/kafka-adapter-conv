@@ -44,7 +44,9 @@
   <styleItems>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</styleItems>
   <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
   <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
+  <roles>Role.кфкДобавлениеИзменениеСпецификации</roles>
   <commonModules>CommonModule.КонвертацияДанныхXDTOВызовСервера</commonModules>
+  <definedTypes>DefinedType.кфкКомпонентСпецификации</definedTypes>
   <commonForms>CommonForm.ВыборКонфигурацийИсточникаПриемника</commonForms>
   <commonForms>CommonForm.кфкРабочийСтолКонвертации</commonForms>
   <commonForms>CommonForm.кфкРабочийСтолСпецификаций</commonForms>
@@ -54,19 +56,24 @@
   <catalogs>Catalog.кфкКаналыСпецификации</catalogs>
   <catalogs>Catalog.кфкПеречисленияСпецификации</catalogs>
   <catalogs>Catalog.кфкПриложенияСпецификаций</catalogs>
+  <catalogs>Catalog.кфкПримерыСообщенийСпецификации</catalogs>
   <catalogs>Catalog.кфкСпецификации</catalogs>
   <catalogs>Catalog.кфкТипыДанныхСпецификации</catalogs>
   <catalogs>Catalog.кфкТипыЗначенийСпецификации</catalogs>
   <catalogs>Catalog.Объекты</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПравилаКонвертацииОбъектов</catalogs>
   <catalogs>Catalog.ПравилаКонвертацииПредопределенныхДанных</catalogs>
   <catalogs>Catalog.ПравилаКонвертацииСвойств</catalogs>
   <catalogs>Catalog.ПравилаОбработкиДанных</catalogs>
   <catalogs>Catalog.Релизы</catalogs>
   <catalogs>Catalog.Свойства</catalogs>
+  <documents>Document.кфкВерсияСпецификации</documents>
   <enums>Enum.ВариантыИдентификацииОбъектов</enums>
   <enums>Enum.ВариантыМоделейОбмена</enums>
   <enums>Enum.ВидыСвойств</enums>
+  <enums>Enum.кфкВидыИзмененияДанных</enums>
+  <enums>Enum.кфкВидыПовышенияВерсий</enums>
   <enums>Enum.СостоянияПравил</enums>
   <enums>Enum.СпособыВыгрузкиРазделенногоМодуля</enums>
   <enums>Enum.ТипыКонвертаций</enums>
@@ -77,5 +84,6 @@
   <dataProcessors>DataProcessor.кфкКонструкторAsyncAPI</dataProcessors>
   <dataProcessors>DataProcessor.НастройкаПравилКонвертацииСвойств</dataProcessors>
   <dataProcessors>DataProcessor.НастройкаПравилОбмена</dataProcessors>
-  <informationRegisters>InformationRegister.кфкПримерыСообщенийСпецификации</informationRegisters>
+  <informationRegisters>InformationRegister.кфкВерсииСпецификации</informationRegisters>
+  <informationRegisters>InformationRegister.кфкИзмененияОбъектовСпецификаций</informationRegisters>
 </mdclass:Configuration>

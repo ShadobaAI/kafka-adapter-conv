@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="deccbc1a-7910-417a-984e-ee2ed538e51b">
+  <producedTypes>
+    <refType typeId="21190f36-cd01-47d2-9781-8b8c83916124" valueTypeId="15e7fdd7-44b5-4abd-8199-095c61b072be"/>
+    <listType typeId="73ac453e-cf84-4548-ab12-e868781a9cf2" valueTypeId="8bf2b9e2-8a0c-4186-abad-0a97140348de"/>
+    <managerType typeId="79c93c4d-b234-4c66-8af1-1dfea7511fca" valueTypeId="d7bd71ed-bd57-4c59-983b-386a659eb633"/>
+  </producedTypes>
+  <name>кфкВидыПовышенияВерсий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды повышения версий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3aa9f244-f4f4-4192-a96d-16da81a93eff">
+    <name>ОсновнаяВерсия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная версия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea15b521-fb2b-4bf2-adc8-65de54b0c640">
+    <name>ДополняющаяВерсия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополняющая версия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="81079c20-b11b-4262-84d5-93ccd48da07c">
+    <name>ВерсияИсправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия исправления</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

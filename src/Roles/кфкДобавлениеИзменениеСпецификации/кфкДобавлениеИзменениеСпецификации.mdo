@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="227a7601-d406-4370-9da7-108c3ccbb340">
+  <name>кфкДобавлениеИзменениеСпецификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение спецификации</value>
+  </synonym>
+</mdclass:Role>
