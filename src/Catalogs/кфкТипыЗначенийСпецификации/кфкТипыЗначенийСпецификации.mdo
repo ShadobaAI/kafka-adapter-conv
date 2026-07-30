@@ -166,6 +166,13 @@
           <value>uri</value>
         </code>
       </content>
+      <content id="fd49f433-5e49-479d-8c4d-5ecb779931f5">
+        <name>Время</name>
+        <description>Время</description>
+        <code xsi:type="core:StringValue">
+          <value>time</value>
+        </code>
+      </content>
     </items>
     <items id="2a64da32-1ebf-42ea-ae43-9f61055439fb">
       <name>Число</name>
