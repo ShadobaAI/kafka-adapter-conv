@@ -700,7 +700,6 @@
       </title>
       <id>11</id>
       <valueType>
-        <types>CatalogRef.Объекты</types>
         <types>CatalogRef.кфкПеречисленияСпецификации</types>
       </valueType>
       <view>
@@ -816,14 +815,31 @@
       </edit>
     </columns>
     <columns>
-      <name>ТипОбъекта</name>
+      <name>ТипТипа</name>
       <title>
         <key>ru</key>
-        <value>Тип объекта</value>
+        <value>Тип типа</value>
       </title>
       <id>19</id>
       <valueType>
         <types>EnumRef.ТипыОбъектов</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Тип</name>
+      <title>
+        <key>ru</key>
+        <value>Тип</value>
+      </title>
+      <id>20</id>
+      <valueType>
+        <types>CatalogRef.Объекты</types>
       </valueType>
       <view>
         <common>true</common>
