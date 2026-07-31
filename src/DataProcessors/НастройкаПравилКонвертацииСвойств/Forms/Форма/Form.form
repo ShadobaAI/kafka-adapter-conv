@@ -106,6 +106,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>СопоставлениеСвойствДерево</segments>
+    </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
       <name>СопоставлениеСвойствДеревоСоздатьПравило</name>
@@ -119,6 +122,9 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СопоставлениеСвойствДерево.СоздатьПравило</segments>
+      </dataPath>
       <extendedTooltip>
         <name>СопоставлениеСвойствДеревоСоздатьПравилоРасширеннаяПодсказка</name>
         <id>69</id>
@@ -149,6 +155,9 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СопоставлениеСвойствДерево.СвойствоКонфигурации</segments>
+      </dataPath>
       <extendedTooltip>
         <name>СопоставлениеСвойствДеревоСвойствоКонфигурацииРасширеннаяПодсказка</name>
         <id>72</id>
@@ -189,6 +198,9 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СопоставлениеСвойствДерево.СвойствоФормата</segments>
+      </dataPath>
       <extendedTooltip>
         <name>СопоставлениеСвойствДеревоСвойствоФорматаРасширеннаяПодсказка</name>
         <id>75</id>
@@ -233,6 +245,9 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СопоставлениеСвойствДерево.СвойствоКонфигурацииКорреспондента</segments>
+      </dataPath>
       <extendedTooltip>
         <name>СопоставлениеСвойствДеревоСвойствоКонфигурацииКорреспондентаРасширеннаяПодсказка</name>
         <id>93</id>
@@ -273,6 +288,9 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СопоставлениеСвойствДерево.ТипСвойстваКонфигурации</segments>
+      </dataPath>
       <extendedTooltip>
         <name>СопоставлениеСвойствДеревоТипСвойстваКонфигурацииРасширеннаяПодсказка</name>
         <id>78</id>
@@ -313,6 +331,9 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СопоставлениеСвойствДерево.ТипСвойстваФормата</segments>
+      </dataPath>
       <extendedTooltip>
         <name>СопоставлениеСвойствДеревоТипСвойстваФорматаРасширеннаяПодсказка</name>
         <id>84</id>
@@ -357,6 +378,9 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СопоставлениеСвойствДерево.ТипСвойстваКонфигурацииКорреспондента</segments>
+      </dataPath>
       <extendedTooltip>
         <name>СопоставлениеСвойствДеревоТипСвойстваКонфигурацииКорреспондентаРасширеннаяПодсказка</name>
         <id>96</id>
@@ -396,6 +420,9 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СопоставлениеСвойствДерево.ПравилоКонвертации</segments>
+      </dataPath>
       <extendedTooltip>
         <name>СопоставлениеСвойствДеревоПравилоКонвертацииРасширеннаяПодсказка</name>
         <id>81</id>
@@ -541,6 +568,9 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
+    <rowPictureDataPath xsi:type="form:DataPath">
+      <segments>СопоставлениеСвойствДерево.Сопоставлено</segments>
+    </rowPictureDataPath>
     <rowsPicture xsi:type="core:PictureRef">
       <picture>StdPicture.WriteAndClose</picture>
     </rowsPicture>
@@ -653,6 +683,32 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <items xsi:type="form:Button">
+      <name>ФормаВывестиСписок</name>
+      <id>101</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаВывестиСписокРасширеннаяПодсказка</name>
+        <id>102</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Item.СопоставлениеСвойствДерево.StandardCommand.OutputList</commandName>
+      <buttonImportance>Normal</buttonImportance>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -671,6 +727,245 @@
   <enabled>true</enabled>
   <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>СопоставлениеСвойствДерево</name>
+    <title>
+      <key>ru</key>
+      <value>Сопоставление свойств дерево</value>
+    </title>
+    <id>1000001</id>
+    <valueType>
+      <types>ValueTree</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>СоздатьПравило</name>
+      <title>
+        <key>ru</key>
+        <value>Создать правило</value>
+      </title>
+      <id>1</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СвойствоКонфигурации</name>
+      <title>
+        <key>ru</key>
+        <value>Свойство конфигурации</value>
+      </title>
+      <id>2</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СвойствоФормата</name>
+      <title>
+        <key>ru</key>
+        <value>Свойство формата</value>
+      </title>
+      <id>3</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ТипСвойстваКонфигурации</name>
+      <title>
+        <key>ru</key>
+        <value>Тип свойства конфигурации</value>
+      </title>
+      <id>4</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ПравилоКонвертации</name>
+      <title>
+        <key>ru</key>
+        <value>Правило конвертации</value>
+      </title>
+      <id>5</id>
+      <valueType>
+        <types>CatalogRef.ПравилаКонвертацииОбъектов</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ТипСвойстваФормата</name>
+      <title>
+        <key>ru</key>
+        <value>Тип свойства формата</value>
+      </title>
+      <id>6</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Сопоставлено</name>
+      <title>
+        <key>ru</key>
+        <value>Сопоставлено</value>
+      </title>
+      <id>7</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ЭтоТЧ</name>
+      <title>
+        <key>ru</key>
+        <value>Это ТЧ</value>
+      </title>
+      <id>8</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СвойствоКонфигурацииКорреспондента</name>
+      <title>
+        <key>ru</key>
+        <value>Свойство конфигурации корреспондента</value>
+      </title>
+      <id>9</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ТипСвойстваКонфигурацииКорреспондента</name>
+      <title>
+        <key>ru</key>
+        <value>Тип свойства конфигурации корреспондента</value>
+      </title>
+      <id>10</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СвойствоКонфигурацииСсылка</name>
+      <title>
+        <key>ru</key>
+        <value>Свойство конфигурации ссылка</value>
+      </title>
+      <id>11</id>
+      <valueType>
+        <types>CatalogRef.Свойства</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СвойствоКонфигурацииКорреспондентаСсылка</name>
+      <title>
+        <key>ru</key>
+        <value>Свойство конфигурации корреспондента ссылка</value>
+      </title>
+      <id>12</id>
+      <valueType>
+        <types>CatalogRef.Свойства</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
