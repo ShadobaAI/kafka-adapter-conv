@@ -733,7 +733,7 @@
       <key>ru</key>
       <value>Сопоставление свойств дерево</value>
     </title>
-    <id>1000001</id>
+    <id>1000003</id>
     <valueType>
       <types>ValueTree</types>
     </valueType>
