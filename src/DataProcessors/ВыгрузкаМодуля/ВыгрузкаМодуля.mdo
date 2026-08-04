@@ -11,7 +11,7 @@
     <objectModule>Extended</objectModule>
     <managerModule>Extended</managerModule>
   </extension>
-  <templates uuid="51afe970-44bf-4061-aa5b-bc7dbe448b35">
+  <templates uuid="9e7db367-c73f-4425-8bfb-57fe31ad9c57">
     <name>кфкСлужебныеПроцедурыИФункции</name>
     <synonym>
       <key>ru</key>
