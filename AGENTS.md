@@ -12,7 +12,6 @@ This repository contains the Conversion Data 3.1 extension that enables arbitrar
 
 ## Repository-Specific Rules
 
-- Use only `conv_edt` for current-state queries, navigation, and every 1C change under `src/**`.
-- Do not route this project through `kfk_edt`, `kfk-unit-edt`, `code-metadata-mcp`, or `graph-metadata-mcp`.
+- Use only the EDT-MCP instance named `conv-edt` for current-state queries, navigation, platform documentation, diagnostics, and every 1C change under `src/**`.
 - Preserve existing naming conventions and source style within valid `v8std` alternatives.
 - Run relevant Conversion Data/XDTO integration checks when the environment is available.
