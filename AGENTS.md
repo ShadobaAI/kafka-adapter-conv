@@ -13,5 +13,6 @@ This repository contains the Conversion Data 3.1 extension that enables arbitrar
 ## Repository-Specific Rules
 
 - Use only the EDT-MCP instance named `conv-edt` for current-state queries, navigation, platform documentation, diagnostics, and every 1C change under `src/**`.
+- The repository-local `.codex/config.toml` owns the `conv-edt` server configuration. Do not move it to shared or user Codex configuration.
 - Preserve existing naming conventions and source style within valid `v8std` alternatives.
 - Run relevant Conversion Data/XDTO integration checks when the environment is available.
