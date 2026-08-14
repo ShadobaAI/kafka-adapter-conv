@@ -46,6 +46,7 @@
   <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
   <roles>Role.кфкДобавлениеИзменениеСпецификации</roles>
   <commonModules>CommonModule.КонвертацияДанныхXDTOВызовСервера</commonModules>
+  <commonModules>CommonModule.кфкРаботаСоСпецификациями</commonModules>
   <definedTypes>DefinedType.кфкКомпонентСпецификации</definedTypes>
   <commonForms>CommonForm.ВыборКонфигурацийИсточникаПриемника</commonForms>
   <commonForms>CommonForm.кфкDataHistoryVersions</commonForms>

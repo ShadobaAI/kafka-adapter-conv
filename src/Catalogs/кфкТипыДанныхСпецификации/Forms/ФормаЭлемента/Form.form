@@ -866,6 +866,7 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.ОбъектКонфигурации</segments>
           </dataPath>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
           <extendedTooltip>
             <name>ОбъектКонфигурацииРасширеннаяПодсказка</name>
             <id>245</id>

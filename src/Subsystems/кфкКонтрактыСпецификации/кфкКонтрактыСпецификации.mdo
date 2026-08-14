@@ -22,4 +22,6 @@
   <content>DefinedType.кфкКомпонентСпецификации</content>
   <content>CommonForm.кфкРабочийСтолСпецификаций</content>
   <content>Role.кфкДобавлениеИзменениеСпецификации</content>
+  <content>CommonModule.кфкРаботаСоСпецификациями</content>
+  <content>CommonForm.кфкDataHistoryVersions</content>
 </mdclass:Subsystem>
