@@ -902,6 +902,53 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
+          <name>ЭтоТабличнаяЧасть</name>
+          <id>360</id>
+          <title>
+            <key>ru</key>
+            <value>Основание</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ЭтоТабличнаяЧасть</segments>
+          </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ЭтоТабличнаяЧастьПриИзменении</name>
+          </handlers>
+          <extendedTooltip>
+            <name>ЭтоТабличнаяЧастьРасширеннаяПодсказка</name>
+            <id>362</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ЭтоТабличнаяЧастьКонтекстноеМеню</name>
+            <id>361</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>CheckBoxField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo">
+            <checkBoxType>Tumbler</checkBoxType>
+            <editFormat>
+              <key>ru</key>
+              <value>БЛ=Объект; БИ='Таб. часть'</value>
+            </editFormat>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
           <name>ЗначениеПоУмолчанию</name>
           <id>220</id>
           <title>
@@ -1063,7 +1110,7 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
+            <maxWidth>25</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
           </extInfo>
         </items>
@@ -1099,7 +1146,7 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
+            <maxWidth>25</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
           </extInfo>
         </items>
@@ -1135,7 +1182,7 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
+            <maxWidth>20</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
           </extInfo>
         </items>
@@ -1171,24 +1218,95 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
+            <maxWidth>15</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
           </extInfo>
         </items>
-        <items xsi:type="form:FormField">
-          <name>ДеревоПолейФорматДанных</name>
-          <id>287</id>
+        <items xsi:type="form:FormGroup">
+          <name>ДеревоПолейГруппаФорматПеречисление</name>
+          <id>370</id>
+          <items xsi:type="form:FormField">
+            <name>ДеревоПолейФорматДанных</name>
+            <id>287</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДеревоПолей.ФорматДанных</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДеревоПолейФорматДанныхРасширеннаяПодсказка</name>
+              <id>289</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДеревоПолейФорматДанныхКонтекстноеМеню</name>
+              <id>288</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>LabelField</type>
+            <editMode>Auto</editMode>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <maxWidth>15</maxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДеревоПолейПеречисление</name>
+            <id>296</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДеревоПолей.Перечисление</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДеревоПолейПеречислениеРасширеннаяПодсказка</name>
+              <id>298</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДеревоПолейПеречислениеКонтекстноеМеню</name>
+              <id>297</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>LabelField</type>
+            <editMode>Auto</editMode>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <maxWidth>15</maxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>ДеревоПолей.ФорматДанных</segments>
-          </dataPath>
+          <title>
+            <key>ru</key>
+            <value>Формат/Перечисление</value>
+          </title>
           <extendedTooltip>
-            <name>ДеревоПолейФорматДанныхРасширеннаяПодсказка</name>
-            <id>289</id>
+            <name>ДеревоПолейГруппаФорматПеречислениеРасширеннаяПодсказка</name>
+            <id>371</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1196,35 +1314,108 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <contextMenu>
-            <name>ДеревоПолейФорматДанныхКонтекстноеМеню</name>
-            <id>288</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>LabelField</type>
-          <editMode>Auto</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
+          <type>ColumnGroup</type>
+          <extInfo xsi:type="form:ColumnGroupExtInfo">
+            <group>InCell</group>
+            <showTitle>auto</showTitle>
+            <showInHeader>true</showInHeader>
+            <showInCard>true</showInCard>
           </extInfo>
         </items>
-        <items xsi:type="form:FormField">
-          <name>ДеревоПолейМинимум</name>
-          <id>290</id>
+        <items xsi:type="form:FormGroup">
+          <name>ДеревоПолейГруппаОбъектКонфигурации</name>
+          <id>368</id>
+          <items xsi:type="form:FormField">
+            <name>ДеревоПолейОбъектКонфигурации</name>
+            <id>311</id>
+            <title>
+              <key>ru</key>
+              <value>Реквизит</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДеревоПолей.ОбъектКонфигурации</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДеревоПолейОбъектКонфигурацииРасширеннаяПодсказка</name>
+              <id>313</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДеревоПолейОбъектКонфигурацииКонтекстноеМеню</name>
+              <id>312</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>LabelField</type>
+            <editMode>Auto</editMode>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <maxWidth>15</maxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДеревоПолейОбъектКонфигурацииТипыСтрокой</name>
+            <id>365</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДеревоПолей.ОбъектКонфигурацииТипыСтрокой</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДеревоПолейОбъектКонфигурацииТипыСтрокойРасширеннаяПодсказка</name>
+              <id>367</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДеревоПолейОбъектКонфигурацииТипыСтрокойКонтекстноеМеню</name>
+              <id>366</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Auto</editMode>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <maxWidth>20</maxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>ДеревоПолей.Минимум</segments>
-          </dataPath>
+          <title>
+            <key>ru</key>
+            <value>Реквизит</value>
+          </title>
           <extendedTooltip>
-            <name>ДеревоПолейМинимумРасширеннаяПодсказка</name>
-            <id>292</id>
+            <name>ДеревоПолейГруппаОбъектКонфигурацииРасширеннаяПодсказка</name>
+            <id>369</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1232,35 +1423,99 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <contextMenu>
-            <name>ДеревоПолейМинимумКонтекстноеМеню</name>
-            <id>291</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>LabelField</type>
-          <editMode>Auto</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
+          <type>ColumnGroup</type>
+          <extInfo xsi:type="form:ColumnGroupExtInfo">
+            <group>InCell</group>
+            <showTitle>auto</showTitle>
+            <showInHeader>true</showInHeader>
+            <showInCard>true</showInCard>
           </extInfo>
         </items>
-        <items xsi:type="form:FormField">
-          <name>ДеревоПолейМаксимум</name>
-          <id>293</id>
+        <items xsi:type="form:FormGroup">
+          <name>ДеревоПолейГруппаМинМакс</name>
+          <id>363</id>
+          <items xsi:type="form:FormField">
+            <name>ДеревоПолейМинимум</name>
+            <id>290</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДеревоПолей.Минимум</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДеревоПолейМинимумРасширеннаяПодсказка</name>
+              <id>292</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДеревоПолейМинимумКонтекстноеМеню</name>
+              <id>291</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>LabelField</type>
+            <editMode>Auto</editMode>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <maxWidth>5</maxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДеревоПолейМаксимум</name>
+            <id>293</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДеревоПолей.Максимум</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДеревоПолейМаксимумРасширеннаяПодсказка</name>
+              <id>295</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДеревоПолейМаксимумКонтекстноеМеню</name>
+              <id>294</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>LabelField</type>
+            <editMode>Auto</editMode>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <maxWidth>5</maxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>ДеревоПолей.Максимум</segments>
-          </dataPath>
+          <title>
+            <key>ru</key>
+            <value>Мин, Макс</value>
+          </title>
           <extendedTooltip>
-            <name>ДеревоПолейМаксимумРасширеннаяПодсказка</name>
-            <id>295</id>
+            <name>ДеревоПолейГруппаМинМаксРасширеннаяПодсказка</name>
+            <id>364</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1268,55 +1523,12 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <contextMenu>
-            <name>ДеревоПолейМаксимумКонтекстноеМеню</name>
-            <id>294</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>LabelField</type>
-          <editMode>Auto</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>ДеревоПолейПеречисление</name>
-          <id>296</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>ДеревоПолей.Перечисление</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>ДеревоПолейПеречислениеРасширеннаяПодсказка</name>
-            <id>298</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ДеревоПолейПеречислениеКонтекстноеМеню</name>
-            <id>297</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>LabelField</type>
-          <editMode>Auto</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
+          <type>ColumnGroup</type>
+          <extInfo xsi:type="form:ColumnGroupExtInfo">
+            <group>InCell</group>
+            <showTitle>auto</showTitle>
+            <showInHeader>true</showInHeader>
+            <showInCard>true</showInCard>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -1351,7 +1563,7 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
+            <maxWidth>10</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
           </extInfo>
         </items>
@@ -1455,7 +1667,7 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
+            <maxWidth>10</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
           </extInfo>
         </items>
@@ -1491,43 +1703,7 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>ДеревоПолейОбъектКонфигурации</name>
-          <id>311</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>ДеревоПолей.ОбъектКонфигурации</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>ДеревоПолейОбъектКонфигурацииРасширеннаяПодсказка</name>
-            <id>313</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ДеревоПолейОбъектКонфигурацииКонтекстноеМеню</name>
-            <id>312</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>LabelField</type>
-          <editMode>Auto</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
+            <maxWidth>15</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
           </extInfo>
         </items>
@@ -1569,16 +1745,16 @@
           <name>ДеревоПолейКоманднаяПанель</name>
           <id>251</id>
           <items xsi:type="form:Button">
-            <name>ДеревоПолейСоздатьПоле</name>
-            <id>319</id>
+            <name>ДеревоПолейПоляСоздать</name>
+            <id>372</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ДеревоПолейСоздатьПолеРасширеннаяПодсказка</name>
-              <id>320</id>
+              <name>ДеревоПолейПоляСоздатьРасширеннаяПодсказка</name>
+              <id>373</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1586,7 +1762,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>Form.Command.СоздатьПоле</commandName>
+            <commandName>Form.Command.ПоляСоздать</commandName>
             <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1595,16 +1771,16 @@
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:Button">
-            <name>ДеревоПолейПодобратьПоля</name>
-            <id>314</id>
+            <name>ДеревоПолейПоляПодобрать</name>
+            <id>374</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ДеревоПолейПодобратьПоляРасширеннаяПодсказка</name>
-              <id>315</id>
+              <name>ДеревоПолейПоляПодобратьРасширеннаяПодсказка</name>
+              <id>375</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1612,7 +1788,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>Form.Command.ПодобратьПоля</commandName>
+            <commandName>Form.Command.ПоляПодобрать</commandName>
             <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1621,16 +1797,16 @@
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:Button">
-            <name>ДеревоПолейОбновитьПоля</name>
-            <id>338</id>
+            <name>ДеревоПолейПоляИзменить</name>
+            <id>376</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ДеревоПолейОбновитьПоляРасширеннаяПодсказка</name>
-              <id>339</id>
+              <name>ДеревоПолейПоляИзменитьРасширеннаяПодсказка</name>
+              <id>377</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1638,7 +1814,61 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>Form.Command.ОбновитьПоля</commandName>
+            <commandName>Form.Command.ПоляИзменить</commandName>
+            <buttonImportance>Normal</buttonImportance>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ДеревоПолейПоляПометитьНаУдаление</name>
+            <id>378</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ДеревоПолейПоляПометитьНаУдалениеРасширеннаяПодсказка</name>
+              <id>379</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ПоляПометитьНаУдаление</commandName>
+            <buttonImportance>Normal</buttonImportance>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ДеревоПолейПоляОбновить</name>
+            <id>380</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ДеревоПолейПоляОбновитьРасширеннаяПодсказка</name>
+              <id>381</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ПоляОбновить</commandName>
             <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1647,16 +1877,16 @@
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:Button">
-            <name>ДеревоПолейИзменитьПоле</name>
-            <id>321</id>
+            <name>ДеревоПолейПоискПоТекущемуЗначению</name>
+            <id>410</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ДеревоПолейИзменитьПолеРасширеннаяПодсказка</name>
-              <id>322</id>
+              <name>ДеревоПолейПоискПоТекущемуЗначениюРасширеннаяПодсказка</name>
+              <id>411</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1664,7 +1894,112 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>Form.Command.ИзменитьПоле</commandName>
+            <commandName>Form.Item.ДеревоПолей.StandardCommand.FindByCurrentValue</commandName>
+            <buttonImportance>Normal</buttonImportance>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ДеревоПолейНайти</name>
+            <id>412</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ДеревоПолейНайтиРасширеннаяПодсказка</name>
+              <id>413</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Item.ДеревоПолей.StandardCommand.Find</commandName>
+            <buttonImportance>Normal</buttonImportance>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ДеревоПолейОтменитьПоиск</name>
+            <id>414</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ДеревоПолейОтменитьПоискРасширеннаяПодсказка</name>
+              <id>415</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Item.ДеревоПолей.StandardCommand.CancelSearch</commandName>
+            <buttonImportance>Normal</buttonImportance>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ДеревоПолейПоляИсторияДанных</name>
+            <id>382</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ДеревоПолейПоляИсторияДанныхРасширеннаяПодсказка</name>
+              <id>383</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ПоляИсторияДанных</commandName>
+            <buttonImportance>Normal</buttonImportance>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ДеревоПолейПоляПолучитьНавигационнуюСсылку</name>
+            <id>384</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ДеревоПолейПоляПолучитьНавигационнуюСсылкуРасширеннаяПодсказка</name>
+              <id>385</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ПоляПолучитьНавигационнуюСсылку</commandName>
             <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1675,7 +2010,7 @@
           </items>
           <items xsi:type="form:Button">
             <name>ДеревоПолейВывестиСписок</name>
-            <id>333</id>
+            <id>404</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1683,7 +2018,7 @@
             </userVisible>
             <extendedTooltip>
               <name>ДеревоПолейВывестиСписокРасширеннаяПодсказка</name>
-              <id>334</id>
+              <id>405</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1790,16 +2125,16 @@
           <name>ДеревоПолейКонтекстноеМеню</name>
           <id>252</id>
           <items xsi:type="form:Button">
-            <name>ДеревоПолейКонтекстноеМенюСоздатьПоле</name>
-            <id>323</id>
+            <name>ДеревоПолейКонтекстноеМенюПоляИзменить</name>
+            <id>392</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ДеревоПолейКонтекстноеМенюСоздатьПолеРасширеннаяПодсказка</name>
-              <id>324</id>
+              <name>ДеревоПолейКонтекстноеМенюПоляИзменитьРасширеннаяПодсказка</name>
+              <id>393</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1807,7 +2142,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>Form.Command.СоздатьПоле</commandName>
+            <commandName>Form.Command.ПоляИзменить</commandName>
             <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1816,16 +2151,16 @@
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:Button">
-            <name>ДеревоПолейКонтекстноеМенюИзменитьПоле</name>
-            <id>325</id>
+            <name>ДеревоПолейКонтекстноеМенюПоляПометитьНаУдаление</name>
+            <id>394</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ДеревоПолейКонтекстноеМенюИзменитьПолеРасширеннаяПодсказка</name>
-              <id>326</id>
+              <name>ДеревоПолейКонтекстноеМенюПоляПометитьНаУдалениеРасширеннаяПодсказка</name>
+              <id>395</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1833,33 +2168,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>Form.Command.ИзменитьПоле</commandName>
-            <buttonImportance>Normal</buttonImportance>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-          </items>
-          <items xsi:type="form:Button">
-            <name>ДеревоПолейКонтекстноеМенюВывестиСписок</name>
-            <id>329</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ДеревоПолейКонтекстноеМенюВывестиСписокРасширеннаяПодсказка</name>
-              <id>330</id>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Item.ДеревоПолей.StandardCommand.OutputList</commandName>
+            <commandName>Form.Command.ПоляПометитьНаУдаление</commandName>
             <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1869,7 +2178,7 @@
           </items>
           <items xsi:type="form:Button">
             <name>ДеревоПолейКонтекстноеМенюПоискПоТекущемуЗначению</name>
-            <id>331</id>
+            <id>408</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1877,7 +2186,7 @@
             </userVisible>
             <extendedTooltip>
               <name>ДеревоПолейКонтекстноеМенюПоискПоТекущемуЗначениюРасширеннаяПодсказка</name>
-              <id>332</id>
+              <id>409</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1886,6 +2195,84 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Item.ДеревоПолей.StandardCommand.FindByCurrentValue</commandName>
+            <buttonImportance>Normal</buttonImportance>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ДеревоПолейКонтекстноеМенюПоляИсторияДанных</name>
+            <id>400</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ДеревоПолейКонтекстноеМенюПоляИсторияДанныхРасширеннаяПодсказка</name>
+              <id>401</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ПоляИсторияДанных</commandName>
+            <buttonImportance>Normal</buttonImportance>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ДеревоПолейКонтекстноеМенюПоляПолучитьНавигационнуюСсылку</name>
+            <id>402</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ДеревоПолейКонтекстноеМенюПоляПолучитьНавигационнуюСсылкуРасширеннаяПодсказка</name>
+              <id>403</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ПоляПолучитьНавигационнуюСсылку</commandName>
+            <buttonImportance>Normal</buttonImportance>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ДеревоПолейКонтекстноеМенюКопироватьВБуферОбмена</name>
+            <id>406</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ДеревоПолейКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
+              <id>407</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Item.ДеревоПолей.StandardCommand.CopyToClipboard</commandName>
             <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1960,42 +2347,6 @@
           <segments>ПримерыСообщений</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
-        <items xsi:type="form:FormField">
-          <name>ПримерыСообщенийКод</name>
-          <id>340</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>ПримерыСообщений.Code</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>ПримерыСообщенийКодРасширеннаяПодсказка</name>
-            <id>342</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ПримерыСообщенийКодКонтекстноеМеню</name>
-            <id>341</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>LabelField</type>
-          <editMode>Auto</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-          </extInfo>
-        </items>
         <items xsi:type="form:FormField">
           <name>ПримерыСообщенийНаименование</name>
           <id>343</id>
@@ -2710,6 +3061,24 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ОбъектКонфигурацииТипыСтрокой</name>
+      <title>
+        <key>ru</key>
+        <value>Тип реквизита</value>
+      </title>
+      <id>37</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ПримерыСообщений</name>
@@ -2788,8 +3157,42 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ЭтоТабличнаяЧасть</name>
+    <title>
+      <key>ru</key>
+      <value>Таб. часть</value>
+    </title>
+    <id>35</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЭтоНовый</name>
+    <title>
+      <key>ru</key>
+      <value>Это новый</value>
+    </title>
+    <id>36</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
-    <name>ПодобратьПоля</name>
+    <name>ПоляПодобрать</name>
     <title>
       <key>ru</key>
       <value>Подобрать</value>
@@ -2803,7 +3206,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ПодобратьПоля</name>
+        <name>ПоляПодобрать</name>
       </handler>
     </action>
     <representation>TextPicture</representation>
@@ -2811,7 +3214,7 @@
     <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
-    <name>СоздатьПоле</name>
+    <name>ПоляСоздать</name>
     <title>
       <key>ru</key>
       <value>Создать</value>
@@ -2825,7 +3228,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>СоздатьПоле</name>
+        <name>ПоляСоздать</name>
       </handler>
     </action>
     <representation>TextPicture</representation>
@@ -2833,7 +3236,7 @@
     <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
-    <name>ИзменитьПоле</name>
+    <name>ПоляИзменить</name>
     <title>
       <key>ru</key>
       <value>Изменить</value>
@@ -2847,7 +3250,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ИзменитьПоле</name>
+        <name>ПоляИзменить</name>
       </handler>
     </action>
     <representation>TextPicture</representation>
@@ -2855,7 +3258,7 @@
     <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
-    <name>ОбновитьПоля</name>
+    <name>ПоляОбновить</name>
     <title>
       <key>ru</key>
       <value>Обновить</value>
@@ -2869,10 +3272,73 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ОбновитьПоля</name>
+        <name>ПоляОбновить</name>
       </handler>
     </action>
     <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
+  </formCommands>
+  <formCommands>
+    <name>ПоляПометитьНаУдаление</name>
+    <title>
+      <key>ru</key>
+      <value>Пометить на удаление / Снять пометку</value>
+    </title>
+    <id>7</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.MarkToDelete</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПоляПометитьНаУдаление</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
+  </formCommands>
+  <formCommands>
+    <name>ПоляИсторияДанных</name>
+    <title>
+      <key>ru</key>
+      <value>История изменений</value>
+    </title>
+    <id>8</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.DataHistory</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПоляИсторияДанных</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
+  </formCommands>
+  <formCommands>
+    <name>ПоляПолучитьНавигационнуюСсылку</name>
+    <title>
+      <key>ru</key>
+      <value>Получить ссылку...</value>
+    </title>
+    <id>9</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.GetURL</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПоляПолучитьНавигационнуюСсылку</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
     <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>

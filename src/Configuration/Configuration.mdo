@@ -48,6 +48,7 @@
   <commonModules>CommonModule.КонвертацияДанныхXDTOВызовСервера</commonModules>
   <definedTypes>DefinedType.кфкКомпонентСпецификации</definedTypes>
   <commonForms>CommonForm.ВыборКонфигурацийИсточникаПриемника</commonForms>
+  <commonForms>CommonForm.кфкDataHistoryVersions</commonForms>
   <commonForms>CommonForm.кфкРабочийСтолКонвертации</commonForms>
   <commonForms>CommonForm.кфкРабочийСтолСпецификаций</commonForms>
   <catalogs>Catalog.ВерсииФормата</catalogs>

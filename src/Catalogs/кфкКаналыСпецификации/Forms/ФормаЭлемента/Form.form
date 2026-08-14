@@ -56,6 +56,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ТипДанных</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТипДанныхПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТипДанныхРасширеннаяПодсказка</name>
         <id>9</id>
@@ -247,6 +251,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
+            <quickChoice>true</quickChoice>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
@@ -359,7 +364,6 @@
         <verticalScrollBar>AutoUse</verticalScrollBar>
         <horizontalLines>true</horizontalLines>
         <verticalLines>true</verticalLines>
-        <autoInsertNewRow>true</autoInsertNewRow>
         <searchOnInput>Auto</searchOnInput>
         <initialListView>Auto</initialListView>
         <horizontalStretch>true</horizontalStretch>
