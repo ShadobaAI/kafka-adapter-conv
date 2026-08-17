@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6edad933-71db-4c17-aa91-4de2a999e3d7">
+  <producedTypes>
+    <selectionType typeId="918d7d4e-281e-4972-b7d5-fbf470ccf6ae" valueTypeId="85306c76-2351-4047-b4ba-9fe66f7b5b71"/>
+    <listType typeId="60b903f4-f70f-42a7-a061-2a3446ab4f2d" valueTypeId="3de39ec1-491a-4859-8e26-28148f0dccb4"/>
+    <managerType typeId="0878dab9-0938-4c66-8a76-8139d02b7f13" valueTypeId="273c0563-bcc8-47c3-a3fc-2d74924ab961"/>
+    <recordSetType typeId="d727de27-68a8-4466-9dcb-9bc5e1cb6b22" valueTypeId="de1c439c-617b-4853-a18d-082bea802f97"/>
+    <recordKeyType typeId="059bc279-606c-4154-a0cb-e4dc40ffaf4f" valueTypeId="efddf14b-a9b0-43f1-8cea-d9fa17853bf7"/>
+    <recordType typeId="9ce529ef-87cc-4615-8f5b-18cfe926e626" valueTypeId="6b2004d2-7bed-4a07-bdf8-1c2d007cbf70"/>
+    <recordManagerType typeId="5d569d92-f00f-4f2a-ad1b-b6b599a7cee8" valueTypeId="bcaa19d9-aa2e-4609-b328-192a23e980ba"/>
+  </producedTypes>
+  <name>кфкКЭШФайловВерсииСпецификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>КЭШ файлов версии спецификации</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>КЭШ файла версии спецификации</value>
+  </recordPresentation>
+  <resources uuid="94e30876-94cb-47e4-a8b0-5a3bea5dffad">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="c636c10a-3beb-45e0-aea3-7923be28a978">
+    <name>ДанныеФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные файла</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2525cc4a-7038-4b9d-9df5-c16e20469087">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.кфкВерсияСпецификации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4c5a7998-e414-4791-ab93-da0f6e3853c6">
+    <name>ТипФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип файла</value>
+    </synonym>
+    <type>
+      <types>EnumRef.кфкТипыФайловВерсииСпецификации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

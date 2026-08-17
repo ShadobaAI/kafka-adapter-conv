@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f199037-c9eb-47ed-8748-0ff48173536d">
+  <producedTypes>
+    <refType typeId="d0e62e06-239e-43d9-a835-e2ac0ca89caa" valueTypeId="81954160-0f3b-4a3e-bfe7-798afd8c1db5"/>
+    <listType typeId="ad91effc-3b8f-412f-a38a-4acf999085aa" valueTypeId="556aa7ba-51e5-4c08-b0e5-f97f4538c65f"/>
+    <managerType typeId="7df159d4-b18a-4e42-b29f-1fc15c21fa79" valueTypeId="d3b17e47-4559-4455-81ec-ff008c7d0eb7"/>
+  </producedTypes>
+  <name>кфкТипыФайловВерсииСпецификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы файлов версии спецификации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b43067b2-c6b5-48d7-a7b2-e9f9a6254768">
+    <name>AsyncAPI_YAML</name>
+    <synonym>
+      <key>ru</key>
+      <value>AsyncAPI.YAML</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

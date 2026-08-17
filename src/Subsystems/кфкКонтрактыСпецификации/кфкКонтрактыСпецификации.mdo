@@ -24,4 +24,5 @@
   <content>Role.кфкДобавлениеИзменениеСпецификации</content>
   <content>CommonModule.кфкРаботаСоСпецификациями</content>
   <content>CommonForm.кфкDataHistoryVersions</content>
+  <content>Enum.кфкТипыФайловВерсииСпецификации</content>
 </mdclass:Subsystem>

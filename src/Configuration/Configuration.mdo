@@ -76,6 +76,7 @@
   <enums>Enum.ВидыСвойств</enums>
   <enums>Enum.кфкВидыИзмененияДанных</enums>
   <enums>Enum.кфкВидыПовышенияВерсий</enums>
+  <enums>Enum.кфкТипыФайловВерсииСпецификации</enums>
   <enums>Enum.СостоянияПравил</enums>
   <enums>Enum.СпособыВыгрузкиРазделенногоМодуля</enums>
   <enums>Enum.ТипыКонвертаций</enums>
@@ -88,4 +89,5 @@
   <dataProcessors>DataProcessor.НастройкаПравилОбмена</dataProcessors>
   <informationRegisters>InformationRegister.кфкВерсииСпецификации</informationRegisters>
   <informationRegisters>InformationRegister.кфкИзмененияОбъектовСпецификаций</informationRegisters>
+  <informationRegisters>InformationRegister.кфкКЭШФайловВерсииСпецификации</informationRegisters>
 </mdclass:Configuration>
