@@ -1120,9 +1120,7 @@
           <id>275</id>
           <visible>true</visible>
           <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
+          <userVisible/>
           <dataPath xsi:type="form:DataPath">
             <segments>ДеревоПолей.Наименование</segments>
           </dataPath>
@@ -1412,7 +1410,7 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Реквизит</value>
+            <value>Свойство 1С</value>
           </title>
           <extendedTooltip>
             <name>ДеревоПолейГруппаОбъектКонфигурацииРасширеннаяПодсказка</name>
