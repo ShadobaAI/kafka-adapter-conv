@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d4b6d7de-f203-4a2f-9b0b-fb31f561549e" extendedConfigurationObject="ac03d05d-31ff-4be8-8134-befc15ed8a20">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d4b6d7de-f203-4a2f-9b0b-fb31f561549e" extendedConfigurationObject="ac03d05d-31ff-4be8-8134-befc15ed8a20">
   <producedTypes>
     <objectType typeId="4158fa42-e01e-4453-9e8e-28634d55d8ec" valueTypeId="d6de9ff0-c0d6-4105-a81a-54d5e762e1c0"/>
     <refType typeId="611cc97f-b538-4eaa-869c-8922c708a495" valueTypeId="412d8fd6-521a-4e8d-a21f-4721281e31d6"/>
@@ -25,4 +25,46 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="2667832d-99b2-4dab-b6ec-0b575fa06675">
+    <name>кфкИмяEN</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя (EN)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="49056ea6-b37d-4e63-845e-b0af1d761cde" extendedConfigurationObject="35277a40-8eae-4ba3-886e-04e15c93bfdc">
+    <name>Имя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="d46986d2-27da-4c29-a8d1-4becc04bde57" extendedConfigurationObject="4c16bde9-8fb4-4ec5-8696-61fcd780bf21">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
 </mdclass:Catalog>

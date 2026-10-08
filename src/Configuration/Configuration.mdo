@@ -39,11 +39,13 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Конфигурации</subsystems>
   <subsystems>Subsystem.кфкКонтрактыСпецификации</subsystems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <styleItems>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</styleItems>
   <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
   <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
+  <commonPictures>CommonPicture.РедактироватьФайл</commonPictures>
   <roles>Role.кфкДобавлениеИзменениеСпецификации</roles>
   <commonModules>CommonModule.КонвертацияДанныхXDTOВызовСервера</commonModules>
   <commonModules>CommonModule.кфкРаботаСоСпецификациями</commonModules>
@@ -84,10 +86,12 @@
   <dataProcessors>DataProcessor.ВыгрузкаМодуля</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаСтруктурыКонфигурацииИзФайловXML</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаСтруктурыФормата</dataProcessors>
+  <dataProcessors>DataProcessor.кфкЗаполнениеИменПолейСпецификации</dataProcessors>
   <dataProcessors>DataProcessor.кфкКонструкторAsyncAPI</dataProcessors>
   <dataProcessors>DataProcessor.НастройкаПравилКонвертацииСвойств</dataProcessors>
   <dataProcessors>DataProcessor.НастройкаПравилОбмена</dataProcessors>
   <informationRegisters>InformationRegister.кфкВерсииСпецификации</informationRegisters>
   <informationRegisters>InformationRegister.кфкИзмененияОбъектовСпецификаций</informationRegisters>
   <informationRegisters>InformationRegister.кфкКЭШФайловВерсииСпецификации</informationRegisters>
+  <informationRegisters>InformationRegister.кфкШаблоныИменПолейСпецификации</informationRegisters>
 </mdclass:Configuration>

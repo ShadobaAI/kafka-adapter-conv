@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ee34e94-8238-4727-a4bd-95798adcef33">
+  <producedTypes>
+    <selectionType typeId="61dbd471-0df3-43ad-8c02-654781a88a69" valueTypeId="98c66407-06ee-4567-a038-f69e617526bd"/>
+    <listType typeId="42614b9a-b65f-4800-8b8f-daefb30b04b9" valueTypeId="191c960e-a652-48f1-af8b-2b046d46ab8c"/>
+    <managerType typeId="7d311252-dd7d-47af-b589-17d687469b0b" valueTypeId="dc9a086a-f3e6-4c54-8621-c3e542138803"/>
+    <recordSetType typeId="0ade9e0e-9aca-47d3-8439-c3eff6f5b50c" valueTypeId="e38711b3-f075-4fcd-84a8-1f994cc72d52"/>
+    <recordKeyType typeId="c2ae5588-a7d5-4db6-bcdb-4efdd5756453" valueTypeId="0dec965d-0306-4027-9b5d-19643f04a927"/>
+    <recordType typeId="d4c2566d-c8c9-4aa9-a2af-d8258fbf2af0" valueTypeId="f8438537-b87f-444f-9236-6a0645f2a5e9"/>
+    <recordManagerType typeId="2fc2e1a3-0854-446d-b9a1-9da8ac21abaf" valueTypeId="f0980231-6d10-4144-a99d-00bfc181f686"/>
+  </producedTypes>
+  <name>кфкШаблоныИменПолейСпецификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны имен полей спецификации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7e541478-b033-470b-b258-dac2ef4dd11c">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="8fcfe70d-26d1-4c83-945c-2a6a4678eea3">
+    <name>Ключ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

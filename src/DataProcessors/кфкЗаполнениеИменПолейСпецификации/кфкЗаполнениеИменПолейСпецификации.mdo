@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ef222f7-781d-4d7b-b9af-9331ede41111">
+  <producedTypes>
+    <objectType typeId="b8197d93-a600-40c1-a204-f90da7d3726f" valueTypeId="91ee2cdb-80b1-4db2-827e-4212a995b9cf"/>
+    <managerType typeId="d0b8cf27-700a-4c2a-b4c7-835700e7d1f3" valueTypeId="e1a184df-134e-4905-b561-df9a7705469b"/>
+  </producedTypes>
+  <name>кфкЗаполнениеИменПолейСпецификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение имен полей спецификации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.кфкЗаполнениеИменПолейСпецификации.Form.Форма</defaultForm>
+  <forms uuid="0b932ebf-543f-466c-b6ca-37add9a52b48">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="afdcf823-891b-41d5-ab69-f72cff31898a">
+    <name>Контекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекст</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

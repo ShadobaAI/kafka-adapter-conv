@@ -25,4 +25,5 @@
   <content>CommonModule.кфкРаботаСоСпецификациями</content>
   <content>CommonForm.кфкDataHistoryVersions</content>
   <content>Enum.кфкТипыФайловВерсииСпецификации</content>
+  <content>InformationRegister.кфкШаблоныИменПолейСпецификации</content>
 </mdclass:Subsystem>

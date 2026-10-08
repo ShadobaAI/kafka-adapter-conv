@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="074c824e-78f5-4272-80be-4cea91d8eaac" extendedConfigurationObject="f3707464-2a14-4985-bd92-b2906fe80703">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="074c824e-78f5-4272-80be-4cea91d8eaac" extendedConfigurationObject="f3707464-2a14-4985-bd92-b2906fe80703">
   <producedTypes>
     <objectType typeId="f229bb12-8754-4a15-807d-1a30ae19e7b4" valueTypeId="1b55370f-b9ae-4041-9c61-b2cb951fa912"/>
     <refType typeId="2bd68b30-02aa-4c02-b81a-afa3651cd30e" valueTypeId="83b8dde9-183a-4471-a6f0-2800f22821a6"/>
@@ -148,6 +148,49 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="8c4c8d82-76f7-4b33-ac95-05f4fbec347d">
+    <name>кфкИмяEN</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя (EN)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4bbe1905-abd6-4c41-9e26-e3f3d2cb231a">
+    <name>кфкПроверкаЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка заполнения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>БЛ='Не проверять'; БИ='Выдавать ошибку'</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>БЛ='Не проверять'; БИ='Выдавать ошибку'</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="7548962c-c424-4f1d-ae01-a9078aa8b09c" extendedConfigurationObject="f50349b9-19fc-4f4a-8966-8a1aa8fc445c">
     <producedTypes>
       <objectType typeId="e1358054-ccf4-4241-aab0-0a3a0c9519f8" valueTypeId="b37c0ed5-d5ab-4aad-a1fc-55ddd0178df2"/>
@@ -172,4 +215,20 @@
       </extension>
     </attributes>
   </tabularSections>
+  <forms uuid="7634396c-3835-4e44-8c9c-abcc3d44447c" extendedConfigurationObject="8061ad67-e769-4285-b0ab-1381a21068b3">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="475a6e47-a703-4a63-bb23-ccb0aa5556ad" extendedConfigurationObject="9cbfe69f-eb11-4140-8e65-aed4746221ed">
+    <name>ФормаГруппы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
 </mdclass:Catalog>
