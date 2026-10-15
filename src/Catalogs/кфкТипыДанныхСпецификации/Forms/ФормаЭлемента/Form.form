@@ -867,6 +867,10 @@
             <segments>Объект.ОбъектКонфигурации</segments>
           </dataPath>
           <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <handlers>
+            <event>OnChange</event>
+            <name>ОбъектКонфигурацииПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ОбъектКонфигурацииРасширеннаяПодсказка</name>
             <id>245</id>
