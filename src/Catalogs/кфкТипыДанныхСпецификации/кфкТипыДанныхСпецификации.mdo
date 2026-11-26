@@ -289,6 +289,42 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="3f5ca64b-b116-46e6-9907-0eb2b4ce1b0c">
+    <name>Открытый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытый</value>
+    </synonym>
+    <comment>additionalProperties</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b8bd6167-107c-434c-a035-d21e9a0db9e5">
+    <name>Свободный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свободный</value>
+    </synonym>
+    <comment>x-ordered</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Разрешает любой порядок полей в XDTO.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="d3360a71-a0fc-4185-94ec-283bbe5776da">
     <name>ЗначениеПоУмолчанию</name>
     <synonym>
